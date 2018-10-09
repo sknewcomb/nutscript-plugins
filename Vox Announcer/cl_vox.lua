@@ -13,7 +13,7 @@ netstream.Hook("VOXList", function(data)
 	label:SetText("  VOX HELP - Loading will take few second.")
 	local html = dframe:Add("DHTML")
 	html:Dock(FILL)
-	html:OpenURL( "https://dl.dropboxusercontent.com/u/77744658/voxtext.txt" )
+	html:OpenURL( "https://github.com/Weedvangelist/bmrp-addons/blob/master/Vox%20Announcer/wordlist.txt" )
 end)
 
 local commands = {
@@ -23,6 +23,8 @@ local commands = {
 }
 
 local sl = string.lower
+
+-- If you are not hearing anything, you likely changed this for some reason.
 local path = "vox/"
 
 function voxBroadcast(string, entity, sndDat)

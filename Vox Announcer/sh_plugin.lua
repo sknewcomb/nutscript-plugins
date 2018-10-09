@@ -1,6 +1,6 @@
 PLUGIN.name = "VOX Announcer"
-PLUGIN.author = "Black Tea"
-PLUGIN.desc = "HL1 Classic VOX Announcer."
+PLUGIN.author = "Weedvangelist"
+PLUGIN.desc = "Black Mesa VOX Announcer."
 
 nut.util.include("cl_vox.lua")
 
@@ -13,10 +13,11 @@ if (CLIENT) then
 	
 	function PLUGIN:BuildHelpOptions(data, tree)
 		data:AddHelp("VOX List", function()
-			return "https://dl.dropboxusercontent.com/u/77744658/voxtext.txt"
+			return "https://github.com/Weedvangelist/bmrp-addons/blob/master/Vox%20Announcer/wordlist.txt"
 		end, "icon16/comment.png")
 	end
 else
+	-- This workshop has the sound files that you need.
 	resource.AddWorkshop("1533069346")
 end
 
