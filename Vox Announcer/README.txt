@@ -9,3 +9,7 @@ unregistered voice will not emit the sound.
 
 ## I've edited this addon to now work with Nutscript 1.1.
 ## Original Credit goes to https://steamcommunity.com/sharedfiles/filedetails/?id=232356231
+
+This plugin still works, though is no longer being developed actively.
+
+Link to Steam Workshop Item: https://steamcommunity.com/sharedfiles/filedetails/?id=1533069346
